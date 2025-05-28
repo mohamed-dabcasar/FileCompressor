@@ -1,8 +1,21 @@
 # FileCompressor
 
-# compile with >= C++20
+A simple file compression and decompression tool written in C++.
 
-# To encode a file: ./file_compressor.exe -e <input_file_path> <output_file_path>
-# To decode a file: ./file_compressor.exe -d <input_file_path> <output_file_path>
+## Requirements
 
+- C++20 or later
 
+## Usage
+
+### Encode
+
+```bash
+./file_compressor.exe -e <input_file_path> <output_file_path>
+```
+
+### Decode
+
+```bash
+./file_compressor.exe -d <input_file_path> <output_file_path>
+```
